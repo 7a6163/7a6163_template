@@ -15,10 +15,40 @@
 ### Each card usage
 ---
 
+![](./1-repos-per-language.svg)
+
+```
+![](https://raw.githubusercontent.com/7a6163/7a6163_template/master/profile-summary-card-output/omni/1-repos-per-language.svg)
+```
+
+    
+
+---
+
 ![](./2-most-commit-language.svg)
 
 ```
 ![](https://raw.githubusercontent.com/7a6163/7a6163_template/master/profile-summary-card-output/omni/2-most-commit-language.svg)
+```
+
+    
+
+---
+
+![](./3-stats.svg)
+
+```
+![](https://raw.githubusercontent.com/7a6163/7a6163_template/master/profile-summary-card-output/omni/3-stats.svg)
+```
+
+    
+
+---
+
+![](./4-productive-time.svg)
+
+```
+![](https://raw.githubusercontent.com/7a6163/7a6163_template/master/profile-summary-card-output/omni/4-productive-time.svg)
 ```
 
     

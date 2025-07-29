@@ -15,10 +15,40 @@
 ### Each card usage
 ---
 
+![](./1-repos-per-language.svg)
+
+```
+![](https://raw.githubusercontent.com/7a6163/7a6163_template/master/profile-summary-card-output/flag_india/1-repos-per-language.svg)
+```
+
+    
+
+---
+
 ![](./2-most-commit-language.svg)
 
 ```
 ![](https://raw.githubusercontent.com/7a6163/7a6163_template/master/profile-summary-card-output/flag_india/2-most-commit-language.svg)
+```
+
+    
+
+---
+
+![](./3-stats.svg)
+
+```
+![](https://raw.githubusercontent.com/7a6163/7a6163_template/master/profile-summary-card-output/flag_india/3-stats.svg)
+```
+
+    
+
+---
+
+![](./4-productive-time.svg)
+
+```
+![](https://raw.githubusercontent.com/7a6163/7a6163_template/master/profile-summary-card-output/flag_india/4-productive-time.svg)
 ```
 
     
