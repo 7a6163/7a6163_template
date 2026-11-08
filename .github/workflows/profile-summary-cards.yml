@@ -1,21 +1,24 @@
 name: GitHub-Profile-Summary-Cards
 
 on:
-  create:
-  push:
-  schedule: # execute every 24 hours
-    - cron: "* */24 * * *"
+  schedule: # once a day at 00:00 UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate
+    permissions:
+      contents: write
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.SUMARRY_CARDS_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "master"
+          TIME_ZONE: "Asia/Taipei"
+          THEME: "" # set one theme name (e.g. github_dark) to generate only that theme
