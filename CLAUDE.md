@@ -12,7 +12,7 @@ A GitHub profile README template built on [github-profile-summary-cards](https:/
 - `.github/workflows/profile-summary-cards.yml` runs the `vn7n24fzkq/github-profile-summary-cards@release` action for `github.repository_owner`. It runs daily at 00:00 UTC and on `workflow_dispatch`. Its options: `BRANCH_NAME` must be `master` (the action defaults to `main`), `TIME_ZONE` sets the timezone for the productive-time card, and `THEME` empty means every theme.
 - The action authenticates with the repo secret `SUMARRY_CARDS_TOKEN` (the misspelling is the real secret name, so don't "fix" it unless the secret is renamed too). It writes SVGs to `profile-summary-card-output/<theme>/` and commits them as `profile-summary-cards[bot]` with the message "Generate profile summary cards".
 - Each theme directory holds `0-profile-details.svg`, `1-repos-per-language.svg`, `2-most-commit-language.svg`, `3-stats.svg`, `4-productive-time.svg`, plus a `README.md` preview.
-- `README.md` embeds the cards by absolute `raw.githubusercontent.com` URLs. They point at this repo (`7a6163/7a6163_template`, `vue` theme), so changing the theme means changing the URLs.
+- `README.md` embeds the cards by absolute `raw.githubusercontent.com` URLs. They point at this repo (`7a6163/7a6163_template`, `github_dark` theme), so changing the theme means changing the URLs.
 
 ## Working here
 
